@@ -19,9 +19,14 @@ header {
 	text-align: center;
 }
 
-section {
+#pitch {
 	text-align: center;
 }
+
+#trailer {
+	text-align: center;
+}
+	
 
 iframe {
 	outline-color:#380163;
