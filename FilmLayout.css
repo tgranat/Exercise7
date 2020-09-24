@@ -8,7 +8,7 @@ Följande önskemål finns:
 
 body {
 	font-family: Verdana;
-	background-color: #f7b7e9; 
+	background-color:#f6aeeb;
 }
 	
 h1, h2, h3, h4 {
@@ -69,7 +69,7 @@ footer {
 	height: 50px;
 	margin-top: 10px;
 	padding-left: 8px;
-	background-color: #e449e8;
+	background-color: #da3aef;
 	outline-color:#380163;
 	outline-style: solid;
 }
