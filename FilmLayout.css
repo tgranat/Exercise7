@@ -10,8 +10,8 @@ body {
 	font-family: Verdana;
 	background-color: #f7b7e9; 
 }
-
-h3 {
+	
+h1, h2, h3, h4 {
 	color: #380163;
 }
 
@@ -19,7 +19,13 @@ section {
 	text-align: center;
 }
 
-/* Länklista */
+iframe {
+	outline-color:#380163;
+	outline-style: solid;
+}
+
+/* Horisontell länklista */
+/* Använder float. Kan göras på andra sätt t ex med flexbox.  */
 
 nav ul {
 	list-style-type: none;
@@ -42,18 +48,31 @@ nav li a:hover {
   color: white;
   
 }
+
+/* Städar lite efter man har använt float. I det här fallet innan man
+forstätter med footer elementet. */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
  /* Footer */
  /* Testar vertical alignment med flexbox */
  
 footer {
-	clear: both;
 	height: 50px;
+	margin-top: 10px;
+	padding-left: 8px;
 	background-color: #e449e8;
+	outline-color:#380163;
+	outline-style: solid;
 }
 
-.flex-aligncenter {
+.flex-align-center {
 	display:  flex;
-	align-items: center;	
+	align-items: center;
 }
 
 
