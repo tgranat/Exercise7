@@ -15,6 +15,10 @@ h1, h2, h3, h4 {
 	color: #380163;
 }
 
+header {
+	text-align: center;
+}
+
 section {
 	text-align: center;
 }
